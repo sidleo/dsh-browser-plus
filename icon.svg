@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="浏览器 Cookie 同步">
+  <defs>
+    <linearGradient id="bpIconBg" x1="10" y1="6" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3f96d4"/>
+      <stop offset="1" stop-color="#1d5f96"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bpIconBg)"/>
+  <rect x="11.5" y="13" width="41" height="33" rx="5" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M11.5 22h41" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <circle cx="17" cy="17.5" r="1.6" fill="#ffffff"/>
+  <circle cx="22.5" cy="17.5" r="1.6" fill="#ffffff"/>
+  <circle cx="32" cy="31.5" r="5" fill="#ffffff"/>
+  <path d="M32 36.5v6.2" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <path d="M32 40.3h4.2" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Browser Cookie Sync",
+    "description": "Read login cookies from Chrome/Edge on this Mac and inject them into DSH's built-in browser through the local CDP bridge, so you don't have to sign in again in every tab."
+  }
+}

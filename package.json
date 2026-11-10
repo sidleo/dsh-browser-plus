@@ -1,0 +1,60 @@
+{
+  "name": "@sidleo3/dsh-browser-plus",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Browser Plus：把 Chrome/Edge 的登录 Cookie 注入 DSH 内置浏览器（右侧栏 Browser 标签），通过本机 CDP 调试桥实现免登录。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "browser",
+    "cookie"
+  ],
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib/",
+    "locale/*.json",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "engines": {
+    "dsh": ">=0.1.7-rc.2"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots"
+      ]
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidleo/dsh-browser-plus.git"
+  },
+  "homepage": "https://github.com/sidleo/dsh-browser-plus#readme",
+  "bugs": {
+    "url": "https://github.com/sidleo/dsh-browser-plus/issues"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "浏览器 Cookie 同步",
+    "description": "读取本机 Chrome/Edge 的登录 Cookie，通过本机 CDP 调试桥注入 DSH 内置浏览器，免去在每个内置浏览器标签里重复登录。"
+  }
+}

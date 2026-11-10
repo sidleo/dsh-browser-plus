@@ -1,0 +1,10 @@
+# dsh-browser-plus bundle patch：在 profile 插件树里插入本插件的一行（Host 半 + 浏览器半）。
+# 安装：dsh plugin --profile <profile> add @sidleo3/dsh-browser-plus
+# 本地开发（改源码即时生效）：dsh plugin --profile <profile> add link:/abs/path/to/dsh-browser-plus
+# 运行参数（settingsDir 等）如需覆盖，在 profile 的 cordis.patch.yml 里按 id 定向补丁：
+#   - id: browser-plus
+#     config:
+#       settingsDir: /abs/path/to/browser-plus
+- insert:
+    - id: browser-plus
+      name: '@sidleo3/dsh-browser-plus'
